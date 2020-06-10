@@ -46,7 +46,7 @@ export default function DetailHero() {
                                         <td>{el.type}</td>
                                     </tr>
                                     <tr>
-                                        <td className="text-muted">Hero Role</td>
+                                        <td className="text-muted">Hero Roles</td>
                                         <td>{
                                             el.roles.map((role, i) => {
                                                 return (

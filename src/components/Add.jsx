@@ -31,14 +31,11 @@ export default function Add() {
 
     function handleSubmit(e) {
         e.preventDefault()
-        console.log(data, "masuk ga");
         
         if(!name || !attr || !type || !roles) { 
             setValidated(false)           
-            console.log("falsee")
         } else  {
             setValidated(true)
-            console.log("trueee")
             dispatch(ADD_HEROES(data))
             setName("")
             setType("")
